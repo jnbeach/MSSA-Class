@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.numbercontainer {
+    background-color: darksalmon;
+    padding: 1rem;
+    border-style: solid;
+    border-width: .45rem;
+}
+
+div.numbercontainer div {
+    background-color: rgb(194, 106, 77);
+    padding: 1rem;
+    border: black;
+    border-width: .35rem;
+    border-style: solid;
+    margin-top: .2rem;
+}
+
+button {
+    font-weight: bold;
+    font-size: medium;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: .20rem;
+    border-style: solid;
+    border-radius: 33%;
+}
+
+/* div.number2 {
+    background-color: rgb(194, 106, 77);
+    padding: 1rem;
+} */
