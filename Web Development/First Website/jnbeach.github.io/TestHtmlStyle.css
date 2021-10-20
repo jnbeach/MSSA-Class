@@ -1,0 +1,59 @@
+/* This is copied over from another CSS file that I was messing around with. */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgrey;
+}
+
+div{
+    width: 1000px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 6px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 800px;
+    background-color: rgb(65, 2, 2);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: rgb(0, 0, 0)
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+header{
+    background-color: rgb(65, 2, 2);
+    color: white;
+    font-weight: bolder;
+}
+nav{
+    background-color: rgb(65, 2, 2);
+    color: white;
+    font-weight: bolder;
+}
+/* This is an id selector */
+#Textbox{
+    background-color: black;
+}
+/* This is a class selector */
+.formdiv{
+    background-color: rgb(231, 229, 229);
+}
+
+/* Use spaces to select descendants */
+
+header a {
+    color: greenyellow
+}
