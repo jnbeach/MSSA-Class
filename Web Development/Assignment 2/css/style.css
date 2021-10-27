@@ -1,0 +1,68 @@
+body {
+    background: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meme {
+    padding: 2rem;
+}
+
+#inputDiv input {
+    border: 2px solid black;
+    font-size: 1.8rem;
+    margin: .4rem;
+    padding: 1rem;
+}
+
+#inputDiv input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#messageDiv {
+    border: 2px solid black;
+    font-size: 1.1rem;
+    margin: .3rem;
+    padding: .6rem;
+}
+
+#calculator button {
+    border: 2px solid black;
+    font-size: 1.8rem;
+    margin: .4rem;
+    padding: 1rem 1.5rem;
+}
+
+/* Tried to make the Clear button skinnier, but I think it might be running into specificity issues.  */
+
+/* #calculator button #clear {
+    padding: 1rem .5rem;
+} */
+
+#calculator button:hover{
+    background: rgb(95, 23, 23);
+}
+
+#calculator button:active{
+    background: rgb(23, 134, 32);
+}
+
+.clear, .equals {
+    background: rgb(77, 71, 71);
+}
+
+.enabledOperator {
+    background: rgb(16, 121, 81);
+}
+
+.disabledOperator {
+    background: rgb(10, 35, 116);
+}
+
+#yeahBaby {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 500px;
+    visibility: hidden;
+}

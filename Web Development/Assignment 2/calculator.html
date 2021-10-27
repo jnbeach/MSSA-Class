@@ -1,0 +1,80 @@
+<!-- 
+
+    ASSIGNMENT 2. JavaScript
+    Maximum score: 20
+
+    HTML 4pts:
+        1. Create a div element for the body of a calculator x
+        2. Create an input element for the screen of the calculator x
+        3. Create 9 buttons that correspond to the 9 digits of the calculator x
+        4. Create 5 buttons for the operations: + - / * = x
+
+    CSS 4pts:
+        1. Apply styles to the body of the calculator. x
+        2. Apply styles to the screen of the calculator. x
+        3. Apply style to the digit buttons of the calculator so they look the same. x
+        4. Apply styles to the operation buttons so they contrast from the digit ones. x
+        
+    JS 12pts:
+        1. Make it so that by default, the value showcased in the calculator is 0. worths 1pt. x
+        2. Make it so that each time you press a digit button you send the number value to the calculator's screen. worths 1pt. x
+        3. Make it so that each time you press an operation button, you store the current value in the screen of the calculator in a variable and you clean the screen of the calculator the value returns to 0. worths 3pts. x
+        4. Make it so that if you're capturing the second digit, the operation buttons get blocked except for the equal operation. worths 3pts.
+        5. Make it so that when you press on the equal operation button you perform the operation and output the result on the screen. worths 2pts x
+        6. Make it so that when you're displaying the result, if you press any key of the calculator it allows you to restart from zero capturing the first digit. 2pts. x
+
+ -->
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Do you even MATH???</h1>
+
+    <div class="meme">
+        <img src="images/AustinPowers.png" alt="LiveDangerously">
+        <img src="images/yeahBabyYeah.gif" alt="yeahBabyYeah" id="yeahBaby">
+    </div>
+
+    <div id="inputDiv">
+        <input type="text" name="userInput" id="userInput" placeholder="0">
+    </div>
+    <div id="calculator">
+        <div class="row row1">
+            <button class="calcnumber" id="7" onclick="numberClick(this.id);">7</button>
+            <button class="calcnumber" id="8" onclick="numberClick(this.id);">8</button>
+            <button class="calcnumber" id="9" onclick="numberClick(this.id);">9</button>
+            <button class="enabledOperator" id="divide" onclick="opClick(this.id);">&#247</button>
+        </div>
+        <div class="row row2">
+            <button class="calcnumber" id="4" onclick="numberClick(this.id);">4</button>
+            <button class="calcnumber" id="5" onclick="numberClick(this.id);">5</button>
+            <button class="calcnumber" id="6" onclick="numberClick(this.id);">6</button>
+            <button class="enabledOperator" id="mult" onclick="opClick(this.id);">&#215</button>
+        </div>
+        <div class="row row3">
+            <button class="calcnumber" id="1" onclick="numberClick(this.id);">1</button>
+            <button class="calcnumber" id="2" onclick="numberClick(this.id);">2</button>
+            <button class="calcnumber" id="3" onclick="numberClick(this.id);">3</button>
+            <button class="enabledOperator" id="minus" onclick="opClick(this.id);">&#8722</button>
+        </div>
+        <div class="row row4">
+            <button class="clear" id="clear" onclick="clearCalc();">C</button>
+            <button class="calcnumber" id="0" onclick="numberClick(this.id);">0</button>
+            <button class="equals" id="compute" onclick="equalClick();">=</button>
+            <button class="enabledOperator" id="plus" onclick="opClick(this.id);">+</button>
+        </div>
+    </div>
+
+    <div id="messageDiv">
+        <p id="message">Baby, give me your digits!</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
