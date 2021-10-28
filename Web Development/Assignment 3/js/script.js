@@ -24,12 +24,15 @@ function searchPokemon() {
             capitalPokeName = capitalize(pokemon.name);
             nameDiv.innerHTML += '<p>' + capitalPokeName + '</p>';
             nameDiv.innerHTML += "<img src=" + pokemon.sprites.other["official-artwork"].front_default + ">";
-            spriteDiv.innerHTML += "<img src=" + pokemon.sprites.back_default + ">";
-            spriteDiv.innerHTML += "<img src=" + pokemon.sprites.front_default + ">";
+            spriteDiv.innerHTML += "<div class='spriteImgDiv'><img src=" + pokemon.sprites.back_default + "></div>";
+            spriteDiv.innerHTML += "<div class='spriteImgDiv'><img src=" + pokemon.sprites.front_default + "></div>";
 
 
-            for (let i = 0; i < pokemon.moves.length; i++) {
-                var moveName = pokemon.moves[i].move.name
+            for (let i = 0; i < 4; i++) {
+
+                let numberOfMoves = pokemon.moves.length
+                let moveIndex = Math.floor(Math.random() * numberOfMoves);
+                var moveName = pokemon.moves[moveIndex].move.name
                 movesList.innerHTML += '<li>' + capitalize(moveName) + '</li>';
             }
 

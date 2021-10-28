@@ -2,7 +2,8 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
     justify-content: center;
 }
 
@@ -16,14 +17,20 @@ header {
     width: 100vw;
 }
 
+
 h1 {
     display: block;
+    font-size: 2.3rem;
     text-align: center;
     width: 100vw;
 }
 
 h2 {
+    align-items: center;
     background-color: rgb(196, 193, 193);
+    display: flex;
+    padding-left: 5px;
+    font-size: 15px;
 }
 
 #pokedex {
@@ -53,11 +60,13 @@ h2 {
 #searchbutton {
     border: 1.5px solid black;
     border-radius: 5px;
-    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .8rem;
     font-weight: bold;
     height: 35px;
     margin: 10px 10px;
     padding: 5px 5px;
+    
 }
 
 #nameDiv {
@@ -69,7 +78,7 @@ h2 {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(196, 193, 193);
-    grid-area: 1 / 1 / 5 / 21;
+    grid-area: 2 / 1 / 5 / 21;
 }
 
 #nameDiv p {
@@ -86,38 +95,44 @@ h2 {
 
 #spriteDiv {
     display: grid;
-    grid-area: 55 / 1 / 82 / 65;
+    grid-area: 55 / 1 / 82 / 80;
     grid-template: repeat(20, 5%)/repeat(20, 5%);
 }
 #spriteDiv h2{
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(196, 193, 193);
-    grid-area: 8 / 5 / 11 / 21;
+    grid-area: 9 / 5 / 11 / 17;
     margin: 0%;
     text-align: center;
 }
 #spriteDiv img {
+    
     animation: breathing 4.5s ease-out infinite normal;
-    height: 200px;
+    /* border: 2px solid black; */
+    height: 90px;
+    object-fit: cover;
+    width: 90px;
 }
 
-#spriteDiv img:nth-of-type(1) {
-    grid-area: 10 / 3 / 13 / 4;
+.spriteImgDiv:nth-of-type(1) {
+    
+    grid-area: 14 / 6 / 18 / 9;
 }
 
-#spriteDiv img:nth-of-type(2) {
-    grid-area: 10 / 8 / 13 / 9;
+.spriteImgDiv:nth-of-type(2) {
+    grid-area: 12 / 11 / 16 / 15;
 }
 
 #movesDiv {
-    grid-area: 80 / 1 / 100 / 100;
+    grid-area: 82 / 1 / 100 / 100;
 }
 #movesDiv h2{
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(196, 193, 193);
     text-align: center;
+    padding: 3px;
 }
 
 #movesListDiv {
@@ -129,11 +144,21 @@ h2 {
 
 #movesList {
     display: flex;
-    font-size: 12px;
-    flex-direction: column;
+    font-size: 13px;
+    flex-direction: row;
     flex-wrap: wrap;
     max-height: 300px;
-    padding: 0px;
+    padding-left: 2px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#movesList li{
+    width: 80%;
+    margin: 4px 2px;
 }
 
 
