@@ -1,0 +1,109 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+}
+
+header {
+    background:rgb(172, 23, 23);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: 100vw;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    width: 100vw;
+}
+
+#pokedex {
+    display: grid;
+    grid-template: repeat(100, 1%)/repeat(100, 1%);
+    
+    background-image: url(../images/pokedexBackground.jpg);
+    background-size: 35rem;
+    border: 3px solid black;
+    border-radius: 21px;
+    padding: 10px 50px;
+    min-height: 969px;
+    min-width: 409px;
+    max-width: 410px;
+}
+
+#searchbar {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    width: 250px;
+}
+
+#searchbutton {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 35px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+#nameDiv {
+    grid-area: 7 / 20 / 29 / 100;
+}
+
+#spriteDiv {
+    grid-area: 30 / 1 / 69 / 100;;
+}
+
+#movesDiv {
+    grid-area: 70 / 1 / 100 / 100;;
+}
+
+
+#nameDiv p {
+    font-size: 25px;
+}
+
+#nameDiv img {
+    animation: breathing 4.5s ease-out infinite normal;
+    height: 250px;
+}
+
+#spriteDiv img {
+    animation: breathing 4.5s ease-out infinite normal;
+    height: 200px;
+}
+/* Breathing animation stolen from codepen.io/machi/pen/YymGzP and modified to look more */
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+
+  60% {
+    -webkit-transform: scale(.98);
+    -ms-transform: scale(.98);
+    transform: scale(.98);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
