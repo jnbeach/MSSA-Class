@@ -124,21 +124,22 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-height: 300px;
+    max-height: 300px;
 }
 
 #movesList {
     display: flex;
+    font-size: 12px;
     flex-direction: column;
     flex-wrap: wrap;
-    min-height: 300px;
+    max-height: 300px;
     padding: 0px;
 }
 
 
 
 
-/* Breathing animation stolen from codepen.io/machi/pen/YymGzP and modified to look more */
+/* Breathing animation stolen from codepen.io/machi/pen/YymGzP and modified to look more lifelike */
 @keyframes breathing {
   0% {
     -webkit-transform: scale(1);
