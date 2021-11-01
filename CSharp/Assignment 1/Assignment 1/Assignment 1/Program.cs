@@ -9,15 +9,16 @@ namespace Assignment_1
             bool flag = false;
             do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Please input an option number (1-6), 7 to exit.");
+                Console.WriteLine("\n Please input an option number (1-8), 9 to exit.");
                 Console.WriteLine("1: Calculate the income of an employee.");
                 Console.WriteLine("2: Calculate if you passed or failed a class.");
                 Console.WriteLine("3: Multiply two values.");
                 Console.WriteLine("4: Divide one value by another.");
                 Console.WriteLine("5: Compare two values and return the biggest value.");
                 Console.WriteLine("6: Determine if a number is odd or even.");
-                Console.WriteLine("7: Exit");
+                Console.WriteLine("7: Number Guesser");
+                Console.WriteLine("8: Prime Number Checker");
+                Console.WriteLine("9: Exit");
 
                 string optionStr = Console.ReadLine();
                 int option = int.Parse(optionStr);
@@ -25,48 +26,62 @@ namespace Assignment_1
                 switch (option)
                 {
                     case 1:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
                         Employee.EmployeeIncome();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 2:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
                         Student.PassOrFail();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 3:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
                         Calculations.Multiply2Values();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 4:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
                         Calculations.Divide2Values();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 5:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
                         Calculations.Compare2Values();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 6:
-                        Console.WriteLine("You have chosen option {0}", option);
-                        Console.WriteLine("");
-                        Calculations.EvenOrOdd();
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        NumberCheckers.EvenOrOdd();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 7:
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        NumberCheckers.NumberGuesser();
+                        Console.WriteLine("");
+                        flag = true;
+                        break;
+                    case 8:
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        NumberCheckers.PrimeNumberChecker();
+                        Console.WriteLine("");
+                        flag = true;
+                        break;
+                    case 9:
                         Console.WriteLine("You have chosen to exit.");
                         Console.WriteLine("");
                         flag = false;

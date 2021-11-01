@@ -68,22 +68,7 @@ namespace Assignment_1
             {
                 Console.WriteLine($"{compare2} was less than {compare1}.");
             }
-        }
-        public static void EvenOrOdd()
-        {
-            Console.WriteLine("Give me any integer.");
-            int number1 = int.Parse(Console.ReadLine());
+        }        
 
-            int evenOrOdd = number1 % 2;
-
-            if (evenOrOdd == 1)
-            {
-                Console.WriteLine($"{number1} is an odd number");
-            }
-            else
-            {
-                Console.WriteLine($"{number1} is an even number");
-            }
-        }
     }
 }
