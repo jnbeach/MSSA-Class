@@ -8,7 +8,7 @@ namespace Assignment_1
 {
     class NumberCheckers
     {
-        public static void EvenOrOdd()
+        public void EvenOrOdd()
         {
             Console.WriteLine("Give me any integer.");
             int number1 = int.Parse(Console.ReadLine());
@@ -24,7 +24,7 @@ namespace Assignment_1
                 Console.WriteLine($"{number1} is an even number");
             }
         }
-        public static void NumberGuesser()
+        public void NumberGuesser()
         {
 
             Console.WriteLine("I am coming up with a number between 1 and 100!");
@@ -84,7 +84,7 @@ namespace Assignment_1
             }
 
         }
-        public static void PrimeNumberChecker()
+        public void PrimeNumberChecker()
         {
             Console.WriteLine("Give me any integer and I will tell you if it is a prime number.");
             int number1 = int.Parse(Console.ReadLine());

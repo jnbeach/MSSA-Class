@@ -8,7 +8,7 @@ namespace Assignment_1
 {
     class Employee
     {
-        public static void EmployeeIncome()
+        public void EmployeeIncome()
         {
             Console.WriteLine("How many hours per day do you work?");
             decimal hoursPerDay = decimal.Parse(Console.ReadLine());

@@ -8,7 +8,7 @@ namespace Assignment_1
 {
     class Student
     {
-        public static void PassOrFail()
+        public void PassOrFail()
         {
             Console.WriteLine("What was your grade on Assignment 1? e.g. 50, 70, 100");
             decimal grade1 = decimal.Parse(Console.ReadLine());

@@ -9,7 +9,11 @@ namespace Assignment_1
             bool flag = false;
             do
             {
-                Console.WriteLine("\n Please input an option number (1-8), 9 to exit.");
+                
+                Console.BackgroundColor = ConsoleColor.DarkRed;
+                Console.Clear();
+                Console.WriteLine("\n(=^.^=)");
+                Console.WriteLine("\n Please input an option number (1-11), 0 to exit.");
                 Console.WriteLine("1: Calculate the income of an employee.");
                 Console.WriteLine("2: Calculate if you passed or failed a class.");
                 Console.WriteLine("3: Multiply two values.");
@@ -18,74 +22,107 @@ namespace Assignment_1
                 Console.WriteLine("6: Determine if a number is odd or even.");
                 Console.WriteLine("7: Number Guesser");
                 Console.WriteLine("8: Prime Number Checker");
-                Console.WriteLine("9: Exit");
+                Console.WriteLine("9: Factorial Calculator");
+                Console.WriteLine("10: What Season Is It?");
+                Console.WriteLine("11: Play Rock Paper Scissors");
+                Console.WriteLine("12: Exit");
 
                 string optionStr = Console.ReadLine();
                 int option = int.Parse(optionStr);
+
+                Employee dummyEmployee = new Employee();
+                Student dummyStudent = new Student();
+                Calculations calculator = new Calculations();
+                NumberCheckers numberChecker = new NumberCheckers();
 
                 switch (option)
                 {
                     case 1:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        Employee.EmployeeIncome();
+                        dummyEmployee.EmployeeIncome();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 2:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        Student.PassOrFail();
+                        dummyStudent.PassOrFail();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 3:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        Calculations.Multiply2Values();
-                        Console.WriteLine("");
+                        calculator.Multiply2Values();
+                        Console.WriteLine();
                         flag = true;
                         break;
                     case 4:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        Calculations.Divide2Values();
+                        calculator.Divide2Values();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 5:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        Calculations.Compare2Values();
+                        calculator.Compare2Values();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 6:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        NumberCheckers.EvenOrOdd();
+                        numberChecker.EvenOrOdd();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 7:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        NumberCheckers.NumberGuesser();
+                        numberChecker.NumberGuesser();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 8:
                         Console.Clear();
                         Console.WriteLine("You have chosen option {0} \n", option);
-                        NumberCheckers.PrimeNumberChecker();
+                        numberChecker.PrimeNumberChecker();
                         Console.WriteLine("");
                         flag = true;
                         break;
                     case 9:
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        Factorial.FactorialInput();
+                        Console.WriteLine("");
+                        Console.ReadKey();
+                        flag = true;
+                        break;
+                    case 10:
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        SeasonFinder.FourSeasons();
+                        Console.WriteLine("");
+                        Console.ReadKey();
+                        flag = true;
+                        break;
+                    case 11:
+                        Console.Clear();
+                        Console.WriteLine("You have chosen option {0} \n", option);
+                        RPS.RockPaperScissor();
+                        Console.WriteLine("");
+                        Console.ReadKey();
+                        flag = true;
+                        break;
+                    case 0:
                         Console.WriteLine("You have chosen to exit.");
                         Console.WriteLine("");
                         flag = false;
                         break;
+
                     default:
                         Console.WriteLine("You did not select a valid option.");
                         Console.WriteLine("");
@@ -93,125 +130,5 @@ namespace Assignment_1
                 }
             } while (flag);
         }
-
-        //These methods are commented out because they have been moved to their own classes.
-
-        //private static void EmployeeIncome()
-        //{
-        //    Console.WriteLine("How many hours per day do you work?");
-        //    decimal hoursPerDay = decimal.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("How many days did you work this month?");
-        //    decimal workDaysPerMonth = decimal.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("What is your hourly wage?");
-        //    decimal wagePerHour = decimal.Parse(Console.ReadLine());
-
-        //    decimal dollarsPerMonth = wagePerHour * hoursPerDay * workDaysPerMonth;
-
-        //    Console.WriteLine("Your monthly income is ${0}", dollarsPerMonth);
-        //}
-        
-        //private static void PassOrFail()
-        //{
-        //    Console.WriteLine("What was your grade on Assignment 1? e.g. 50, 70, 100");
-        //    decimal grade1 = decimal.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("What was your grade on Assignment 2? e.g. 50, 70, 100");
-        //    decimal grade2 = decimal.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("What was your grade on Assignment 3? e.g. 50, 70, 100");
-        //    decimal grade3 = decimal.Parse(Console.ReadLine());
-
-        //    decimal gradeAverage = (grade1 + grade2 + grade3) / 3;
-        //    if (gradeAverage >= 70)
-        //    {
-        //        Console.WriteLine("Congratulations, you passed. Your grade was ${0}%", gradeAverage);
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("Oops, you failed. Your grade was {0}%", gradeAverage);
-        //    }
-        //}
-        //private static void Multiply2Values()
-        //{
-        //    Console.WriteLine("Give me any number except for zero");
-        //    float mult1 = float.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("Give me any number to multiply it with except for zero");
-        //    float mult2 = float.Parse(Console.ReadLine());
-        //    float multAnswer = 0;
-
-        //    if (mult1 == 0 || mult2 == 0)
-        //    {
-        //        Console.WriteLine("One of your numbers was zero, therefore the answer is zero.");
-        //    }
-        //    else
-        //    {
-        //        multAnswer = mult1 * mult2;
-        //        Console.WriteLine($"{mult1} x {mult2} = {multAnswer}", multAnswer);
-        //    }
-            
-        //}
-
-        //private static void Divide2Values()
-        //{
-        //    Console.WriteLine("Give me any number.");
-        //    float div1 = float.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("Give me any number to divide by except for zero");
-        //    float div2 = float.Parse(Console.ReadLine());
-        //    float divAnswer = 0;
-
-        //    if (div2 == 0)
-        //    {
-        //        Console.WriteLine("Your second number was zero. I cannot divide by zero.");
-        //    }
-        //    else
-        //    {
-        //        divAnswer = div1 / div2;
-        //        Console.WriteLine($"{div1} / {div2} = {divAnswer}", divAnswer);
-        //    }
-            
-        //}
-
-        //private static void Compare2Values()
-        //{
-        //    Console.WriteLine("Give me any number.");
-        //    float compare1 = float.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("Give me another number to compare it to.");
-        //    float compare2 = float.Parse(Console.ReadLine());
-
-        //    if (compare2 > compare1)
-        //    {
-        //        Console.WriteLine($"{compare2} was greater than {compare1}.");
-        //    }
-        //    else if (compare2 == compare1)
-        //    {
-        //        Console.WriteLine($"{compare2} was equal to {compare1}.");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine($"{compare2} was less than {compare1}.");
-        //    }
-        //}
-
-        //private static void EvenOrOdd()
-        //{
-        //    Console.WriteLine("Give me any integer.");
-        //    int number1 = int.Parse(Console.ReadLine());
-
-        //    int evenOrOdd = number1 % 2;
-
-        //    if (evenOrOdd == 1)
-        //    {
-        //        Console.WriteLine($"{number1} is an odd number");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine($"{number1} is an even number");
-        //    }
-        //}
     }
 }

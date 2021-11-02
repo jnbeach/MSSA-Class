@@ -8,7 +8,7 @@ namespace Assignment_1
 {
     class Calculations
     {
-        public static void Multiply2Values()
+        public void Multiply2Values()
         {
             Console.WriteLine("Give me any number except for zero");
             float mult1 = float.Parse(Console.ReadLine());
@@ -26,9 +26,8 @@ namespace Assignment_1
                 multAnswer = mult1 * mult2;
                 Console.WriteLine($"{mult1} x {mult2} = {multAnswer}", multAnswer);
             }
-
         }
-        public static void Divide2Values()
+        public void Divide2Values()
         {
             Console.WriteLine("Give me any number.");
             float div1 = float.Parse(Console.ReadLine());
@@ -48,7 +47,7 @@ namespace Assignment_1
             }
 
         }
-        public static void Compare2Values()
+        public void Compare2Values()
         {
             Console.WriteLine("Give me any number.");
             float compare1 = float.Parse(Console.ReadLine());
