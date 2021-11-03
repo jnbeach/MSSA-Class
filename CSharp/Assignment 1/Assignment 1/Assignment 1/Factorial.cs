@@ -10,21 +10,41 @@ namespace Assignment_1
     {
         public static void FactorialInput()
         {
-            Console.WriteLine("Please give me a positive integer.");
-            int number1 = 0;
-            try
+            string doFlag = "y";
+            do
             {
-                number1 = int.Parse(Console.ReadLine());
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine(e);
-                Console.WriteLine("You didn't type an integer. Sorry. I assumed you typed 0");
-            }
-            int factResult = Factorial.FactorialCalc(number1);
-            Console.WriteLine(factResult);
+                Console.WriteLine("Please give me a positive integer.");
+                int number1 = 0;
+                try
+                {
+                    number1 = int.Parse(Console.ReadLine());
+                    Exception negativeInt = new StackOverflowException("You entered a negative number!");
+                    if (number1 < 0)
+                    {
+                        throw negativeInt;
+                    }
+                    int factResult = Factorial.FactorialCalc(number1);
+                    Console.WriteLine($"{number1}! = {factResult}");
+                    Console.WriteLine("Would you like to calculate another number? y/n");
+                    doFlag = Console.ReadLine();
+                    if (doFlag != "y")
+                    {
+                        Console.WriteLine("You either typed 'n' or another value. Exiting now");
+                    }
+                }
+                catch (StackOverflowException stack)
+                {
+                    Console.WriteLine($"\n + {stack} \n");
+                    Console.WriteLine("Your number wasn't positive! Please Enter a different number.");
+                }
+                catch (FormatException e)
+                {
+                    Console.WriteLine(e);
+                    Console.WriteLine("You didn't type an integer. Please enter a different number.");
+                }
+            } while (doFlag == "y");
         }
-public static int FactorialCalc(int number)
+        public static int FactorialCalc(int number)
         {
             int result = 0;
                 if (number == 0) {
