@@ -8,6 +8,8 @@ namespace School
         public static int teachers;
         public static int janitors;
         public static int employees;
+        public static int numOfClasses = Enum.GetNames(typeof(Classes)).Length;
+        public static string[] listOfClasses = Enum.GetNames(typeof(Classes));
 
         // Constructor
         public School()
@@ -16,6 +18,8 @@ namespace School
             teachers = 0;
             janitors = 0;
             employees = 0;
+            numOfClasses = Enum.GetNames(typeof(Classes)).Length;
+            listOfClasses = Enum.GetNames(typeof(Classes));
         }
 
         // Method
@@ -41,6 +45,18 @@ namespace School
         public static int getEmployees()
         {
             return employees;
+        }
+        public static int getNumClasses()
+        {
+            return numOfClasses;
+        }
+        public static void getListOfClasses()
+        {
+            Console.WriteLine("List of Classes: ");
+            for (int i = 0; i < listOfClasses.Length; i++)
+            {
+                Console.WriteLine(listOfClasses[i]);
+            }
         }
     }
 }
