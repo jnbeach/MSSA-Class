@@ -67,7 +67,67 @@ namespace Assignment_1
             {
                 Console.WriteLine($"{compare2} was less than {compare1}.");
             }
-        }        
+        }
+        public void CubeValue()
+        {
+            Console.WriteLine("Give me any number:");
+            double input1 = double.Parse(Console.ReadLine());
+            double cubeResult = Math.Pow(input1, 3);
+            Console.WriteLine($"The cube of {input1} is {cubeResult}");            
+        }
+        public void AverageOfInts()
+        {
+            Console.WriteLine("How many integers will you give me?");
+            int numOfInts = int.Parse(Console.ReadLine());
+            int tempSum = 0;
+            for (int i = 0; i < numOfInts; i++)
+            {
+                Console.WriteLine("Give me an integer");
+                tempSum += int.Parse(Console.ReadLine());
+            }
+            float average = tempSum / numOfInts;
+            Console.WriteLine($"The average of the {numOfInts} number(s) that you gave me is: {average}");
+        }
 
+        public void MultiplicationTable()
+        {
+            Console.WriteLine("Give me an integer and I will print out a multiplication table.");
+            int maxNumber = int.Parse(Console.ReadLine());
+            
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("");
+                for (int j = 1; j <= maxNumber; j++)
+                {
+                    Console.Write($"{j*i}\t");
+                }
+            }
+        }
+
+        public void AlphaChecker()
+        {
+            Console.WriteLine("Give me a 3 letter string to check for CONSECUTIVE alphabetization.");
+            string userInput = Console.ReadLine();
+            //Lowercase everything so that the unicode can just be compared.
+            userInput = userInput.ToLower();
+            char char1 = Convert.ToChar(userInput[0]);
+            //Apparently you can typecast by using the below syntax?
+            int char1Int = (int)char1;
+            char char2 = Convert.ToChar(userInput[1]);
+            int char2Int = (int)char2;
+            char char3 = Convert.ToChar(userInput[2]);
+            int char3Int = (int)char3;
+
+            Console.WriteLine($"Char values: {char1Int} {char2Int} {char3Int}");
+            
+            if (char1Int == char2Int -1 && char1Int == char3Int-2)
+            {
+                Console.WriteLine("This string is alphabetized with no missing character in between!");
+            }
+            else
+            {
+                Console.WriteLine("This string is not CONSECUTIVELY alphabetized!");
+            }
+        }
     }
 }
