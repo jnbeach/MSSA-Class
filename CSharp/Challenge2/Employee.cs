@@ -6,6 +6,8 @@ namespace School
     {
         // Fields Do I need to make this public for the other classes to uses?
         protected int employeeId;
+        public Address employeeAddress;
+        public Contact employeeContact;
 
         // Don't need a constructor because this class is abstract and just inherited???
         //

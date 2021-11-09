@@ -12,6 +12,12 @@ namespace School
             School.janitors++;
             employees++;
             this.employeeId = employees;
+            this.employeeAddress.Street = "";
+            this.employeeAddress.City = "";
+            this.employeeAddress.State = "";
+            this.employeeAddress.ZipCode = "";
+            this.employeeContact.PhoneNumber = "";
+            this.employeeContact.Email = "";
         }
     }
 }

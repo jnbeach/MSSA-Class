@@ -50,6 +50,17 @@ namespace School
             teacher_2.teachHistory();
             teacher_2.printClasses();
 
+            Console.WriteLine("\nSetting Student 1's Address...");
+            Console.WriteLine("----------------------------");
+            student_1.studentAddress.Street = "123 West 4th Street";
+            student_1.studentAddress.City = "Bellingham";
+            student_1.studentAddress.State = "WA";
+            student_1.studentAddress.ZipCode = "12345";
+            student_1.studentContact.PhoneNumber = "123-456-7890";
+            student_1.studentContact.Email = "student1@school.edu";
+            student_1.studentAddress.printAddress();
+            student_1.studentContact.printContact();
+
             Console.WriteLine("\nEND OF PROGRAM");
             Console.WriteLine("----------------------------");
             Console.ReadKey();

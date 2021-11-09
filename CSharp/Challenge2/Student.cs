@@ -10,11 +10,20 @@ namespace School
 
         private int numClassesEnrolled;
 
+        public Address studentAddress;
+        public Contact studentContact;
+
         // Constructor
         public Student(ref int student)
         {
             student++;
             this.studentId = student;
+            this.studentAddress.Street = "";
+            this.studentAddress.City = "";
+            this.studentAddress.State = "";
+            this.studentAddress.ZipCode = "";
+            this.studentContact.PhoneNumber = "";
+            this.studentContact.Email = "";
         }
         public void printClasses()
         {

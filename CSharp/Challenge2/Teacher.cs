@@ -11,6 +11,12 @@ namespace School
             School.teachers++;
             employees++;
             this.employeeId = employees;
+            this.employeeAddress.Street = "";
+            this.employeeAddress.City = "";
+            this.employeeAddress.State = "";
+            this.employeeAddress.ZipCode = "";
+            this.employeeContact.PhoneNumber = "";
+            this.employeeContact.Email = "";
         }
         public void printClasses()
         {
