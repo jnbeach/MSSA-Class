@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\ref\EnglishSpanishDictionary.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\bin\Debug\net5.0\EnglishSpanishDictionary.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\ref\EnglishSpanishDictionary.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\EnglishSpanishDictionary\obj\Debug\net5.0\EnglishSpanishDictionary.genruntimeconfig.cache

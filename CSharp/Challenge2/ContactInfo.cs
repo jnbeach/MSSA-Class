@@ -15,7 +15,6 @@ namespace School
             Console.WriteLine($"{this.Street}");
             Console.WriteLine($"{this.City}, {this.State} {this.ZipCode}");
         }
-
     }
     struct Contact
     {

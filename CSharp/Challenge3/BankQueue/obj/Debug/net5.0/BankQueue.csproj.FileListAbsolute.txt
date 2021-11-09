@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\ref\BankQueue.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\bin\Debug\net5.0\BankQueue.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\ref\BankQueue.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\BankQueue\obj\Debug\net5.0\BankQueue.genruntimeconfig.cache

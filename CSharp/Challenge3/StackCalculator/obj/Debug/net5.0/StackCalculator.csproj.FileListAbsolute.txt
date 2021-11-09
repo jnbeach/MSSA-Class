@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\ref\StackCalculator.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\bin\Debug\net5.0\StackCalculator.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\ref\StackCalculator.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\StackCalculator\obj\Debug\net5.0\StackCalculator.genruntimeconfig.cache

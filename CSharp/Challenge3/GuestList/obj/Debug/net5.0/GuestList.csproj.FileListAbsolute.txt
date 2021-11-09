@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\ref\GuestList.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\bin\Debug\net5.0\GuestList.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\ref\GuestList.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge3\GuestList\obj\Debug\net5.0\GuestList.genruntimeconfig.cache
