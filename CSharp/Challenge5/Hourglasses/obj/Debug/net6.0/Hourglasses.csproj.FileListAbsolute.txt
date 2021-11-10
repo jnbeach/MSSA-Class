@@ -1,0 +1,15 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\Hourglasses.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\Hourglasses.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\Hourglasses.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\Hourglasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\ref\Hourglasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\bin\Debug\net6.0\Hourglasses.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\ref\Hourglasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\Hourglasses\obj\Debug\net6.0\Hourglasses.genruntimeconfig.cache

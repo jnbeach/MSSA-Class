@@ -1,0 +1,15 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\IceCreamCones.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\IceCreamCones.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\IceCreamCones.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\IceCreamCones.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\ref\IceCreamCones.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\bin\Debug\net6.0\IceCreamCones.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\ref\IceCreamCones.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge5\IceCreamCones\obj\Debug\net6.0\IceCreamCones.genruntimeconfig.cache
