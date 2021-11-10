@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m6AHMyN2uvIepW9aM92o5Ue6onmFDbBqmLbmzG2S/LbKBzv4NpEFF0Uyk39gaErIZ3SpX5Znus6UeMydRO8yWQ==",
+  "dgSpecHash": "UOlElsiaiqayNiw4J3oQrFULuqTriKsDEdnuN86sixPgx//Q98CYm771nJLbQ7/IcIRp/xQPbsCaqQpgWMlGUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Challenge3\\BankQueue\\BankQueue.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

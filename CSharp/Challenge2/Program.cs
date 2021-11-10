@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace School
 {
@@ -60,6 +61,13 @@ namespace School
             student_1.studentContact.Email = "student1@school.edu";
             student_1.studentAddress.printAddress();
             student_1.studentContact.printContact();
+
+            Console.WriteLine("\nAssigning Grades to Students");
+            Console.WriteLine("----------------------------");
+            student_1.addGrade(5);
+            student_2.addGrade("D");
+            student_3.addGrade(10);
+
 
             Console.WriteLine("\nEND OF PROGRAM");
             Console.WriteLine("----------------------------");

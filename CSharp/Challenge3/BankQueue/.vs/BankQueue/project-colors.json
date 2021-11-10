@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7d859354-5a32-4d06-905a-32fac39dfb1d": {
+      "ProjectGuid": "7d859354-5a32-4d06-905a-32fac39dfb1d",
+      "DisplayName": "BankQueue",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -28,9 +28,9 @@ namespace StackCalculator
                 Console.Write($"{Convert.ToString(num)}; ");
             }
             Console.WriteLine("\n--------------------------------------");
-            Console.WriteLine("Specify an operation to perform (+, -, *, /");
+            Console.WriteLine("Specify an operation to perform (+, -, *, /)");
             string operation = Console.ReadLine();
-            int result;
+            float result;
             switch (operation)
             {
                 case "+":

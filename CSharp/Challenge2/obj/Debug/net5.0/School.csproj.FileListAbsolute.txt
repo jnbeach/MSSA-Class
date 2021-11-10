@@ -14,7 +14,6 @@ L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\School\obj\Debug\net5.0
 L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\School\obj\Debug\net5.0\ref\School.dll
 L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\School\obj\Debug\net5.0\School.pdb
 L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\School\obj\Debug\net5.0\School.genruntimeconfig.cache
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.csproj.AssemblyReference.cache
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.AssemblyInfoInputs.cache
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.AssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\bin\Debug\net5.0\ref\School.dll
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\bin\Debug\net5.0\School.pdb
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.genruntimeconfig.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge2\obj\Debug\net5.0\School.csprojAssemblyReference.cache

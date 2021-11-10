@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+KmsLJEDqxjcZuDOazXEGjHIAPi+xMS+SsJHvcps+DjgE4h9vOZpoA7OkuIiD4zW+Zk/bpnn4FogJwpsnpHbWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Challenge4\\Animals.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
