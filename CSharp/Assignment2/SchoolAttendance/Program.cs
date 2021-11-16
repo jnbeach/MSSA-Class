@@ -16,15 +16,15 @@ namespace SchoolAttendance
         public delegate void StudentMissingEventHandler();
         //Define an event based on that delegate
         public event StudentMissingEventHandler StudentMissing;
-        //Subscribe events
 
-        //Raise the event
-        public void OnStudentMissing()
-        {
-            yellSomething();
-            if (StudentMissing != null)
-                StudentMissing();
-        }
+        //Raised the event in Take Attendance when a student says "no"
+
+        // public void OnStudentMissing()
+        // {
+        //     yellSomething();
+        //     if (StudentMissing != null)
+        //         StudentMissing();
+        // }
         public void yellSomething()
         {
             Random randNumber = new Random();
@@ -55,11 +55,14 @@ namespace SchoolAttendance
         public Teacher(string name)
         {
             this.Name = name;
+            //subscribe the event
+            StudentMissing += yellSomething;
         }
         public void TakeAttendance(List<Student> roster)
         {
             foreach (Student student in roster)
             {
+                Console.WriteLine($"-----------------------");
                 Console.WriteLine($"Is {student.Name} here?");
                 if (student.IsPresent)
                 {
@@ -71,7 +74,7 @@ namespace SchoolAttendance
                 {
                     Console.WriteLine("No");
                     Console.WriteLine("--------------------------");
-                    OnStudentMissing();
+                    StudentMissing();
                     student.Grade = 0;
                 }
             }
@@ -122,7 +125,7 @@ namespace SchoolAttendance
             {
                 Console.Write($"{student.Name} ");
             }
-            Console.WriteLine($"\n\n");
+            Console.WriteLine($"\n");
         }
     }
     class Program
@@ -145,11 +148,15 @@ namespace SchoolAttendance
             MisterFreeze.EnrollStudent(Rehabilitation101);
             Student Penguin = new Student("Penguin");
             Penguin.EnrollStudent(Rehabilitation101);
+            Student HarleyQuinn = new Student("HarleyQuinn");
+            HarleyQuinn.EnrollStudent(Rehabilitation101);
+            Student PoisonIvy = new Student("PoisonIvy");
+            PoisonIvy.EnrollStudent(Rehabilitation101);
             Rehabilitation101.PrintClassList();
             Teacher Batman = new Teacher("Batman");
+            //Subscribe event
             Batman.StudentMissing += Guards.OnStudentMissing;
             Console.WriteLine("Taking attendance now:");
-            Console.WriteLine("-------------------------------------------");
             Batman.TakeAttendance(Rehabilitation101.Roster);
         }
 
