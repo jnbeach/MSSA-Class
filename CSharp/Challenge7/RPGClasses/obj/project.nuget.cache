@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PLSbH18uOV+wOpDq4BQbz9u6184wph0fg371cpCn8C86j+RJ799CvzLaA8faKpqyuYVrg1e22CtVHWKd24x2vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Challenge7\\RPGClasses\\RPGClasses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

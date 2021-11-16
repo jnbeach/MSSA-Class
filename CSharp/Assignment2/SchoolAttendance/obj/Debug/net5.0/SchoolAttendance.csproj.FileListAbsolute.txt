@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\ref\SchoolAttendance.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\bin\Debug\net5.0\SchoolAttendance.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\ref\SchoolAttendance.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Assignment2\SchoolAttendance\obj\Debug\net5.0\SchoolAttendance.genruntimeconfig.cache

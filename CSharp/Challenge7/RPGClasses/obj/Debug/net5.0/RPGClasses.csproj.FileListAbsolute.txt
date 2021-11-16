@@ -1,0 +1,16 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.runtimeconfig.dev.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\ref\RPGClasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\bin\Debug\net5.0\RPGClasses.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\ref\RPGClasses.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\Challenge7\RPGClasses\obj\Debug\net5.0\RPGClasses.genruntimeconfig.cache

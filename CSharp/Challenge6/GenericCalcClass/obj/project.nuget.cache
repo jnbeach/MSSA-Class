@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zqTI5szOktVXSPncMbQsxGWNhjZeVluyqyKEakgXJNl36id4dN3Q1HJyUHYns/93rkfGDOFgSy9n7NCngl0/yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Challenge6\\GenericCalcClass\\GenericCalcClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

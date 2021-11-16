@@ -39,28 +39,6 @@ namespace Hourglasses
                 }
                 lineCounter--;
             }
-
-
-
-
-
-
-
-
-            // -----This still only works for odd numbers -------------------
-            // for (int i = 0; i < maxSize; i += 2)
-            // {
-            //     Console.Write("\n");
-            //     for (int k = newLineCounter - 1; k > 0; k--)
-            //     {
-            //         Console.Write(" ");
-            //     }
-            //     for (int j = 0; j < i + 1; j++)
-            //     {
-            //         Console.Write("*");
-            //     }
-            //     newLineCounter--;
-            // }
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8egEuuqFM6lxvkmd35y3daCeevmIimZeeT0DxlPuiLrJrNhyA5Nt6AnZ/DurXfIe9Ngmn1Ck3OZHNWIWaARNBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\Challenge8\\Hospital\\Hospital.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
