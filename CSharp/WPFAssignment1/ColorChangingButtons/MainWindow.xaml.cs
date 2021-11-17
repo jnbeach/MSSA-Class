@@ -23,26 +23,27 @@ namespace ColorChangingButtons
         public MainWindow()
         {
             InitializeComponent();
-            
-            
         }
         void ChangeColorTo(object sender, RoutedEventArgs e)
         {
+            BrushConverter colorConverter = new BrushConverter();
+            
             if (sender.Equals(RedButton))
             {
-                mainRect.Fill = new SolidColorBrush(Color.FromArgb(0xFF,0x8B,0,0));//#FF8B0000
+                //mainRect.Fill = new SolidColorBrush(Color.FromArgb(0xFF,0x8B,0,0));//#FF8B0000
+                mainRect.Fill = (Brush)colorConverter.ConvertFrom("#FF8B0000");
             }
             if (sender.Equals(BlueButton))
             {
-                mainRect.Fill = new SolidColorBrush(Color.FromArgb(0xFF,0x14,0x21,0xA4));//#FF1421A4
+                mainRect.Fill = (Brush)colorConverter.ConvertFrom("#FF1421A4");
             }
             if (sender.Equals(GreenButton))
             {
-                mainRect.Fill = new SolidColorBrush(Color.FromArgb(0xFF, 0x22, 0x6C, 0x33));//#FF226C33
+                mainRect.Fill = (Brush)colorConverter.ConvertFrom("#FF226C33");
             }
             if (sender.Equals(YellowButton))
             {
-                mainRect.Fill = new SolidColorBrush(Color.FromArgb(0xFF, 0xD9, 0xEC, 0x1B));//#FFD9EC1B
+                mainRect.Fill = (Brush)colorConverter.ConvertFrom("#FFD9EC1B");
             }
             
         }

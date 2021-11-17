@@ -20,24 +20,24 @@
             </Grid.ColumnDefinitions>
             <Border BorderThickness="3" BorderBrush="Black" Grid.ColumnSpan="2" Grid.RowSpan="2" CornerRadius="8"/>
             <Label Content="Type of Coffee: " HorizontalAlignment="Left" Margin="19,26,0,0" VerticalAlignment="Top" Height="27" Width="122" FontFamily="Rockwell" FontWeight="Bold" FontSize="14"/>
-            <ComboBox HorizontalAlignment="Left" Margin="158,31,0,0" VerticalAlignment="Top" Width="161" Height="22" FontFamily="Rockwell" FontSize="14">
-                <ComboBoxItem Name="Coffee">Coffee</ComboBoxItem>
-                <ComboBoxItem Name="Latte">Latte</ComboBoxItem>
-                <ComboBoxItem Name="Cappucino">Cappucino</ComboBoxItem>
-                <ComboBoxItem Name="Americano">Americano</ComboBoxItem>
-                <ComboBoxItem Name="Espresso">Espresso</ComboBoxItem>
-                <ComboBoxItem Name="Macchiato">Macchiato</ComboBoxItem>
+            <ComboBox Name="CoffeeSelector" HorizontalAlignment="Left" Margin="158,31,0,0" VerticalAlignment="Top" Width="161" Height="22" FontFamily="Rockwell" FontSize="14">
+                <ComboBoxItem Name="Coffee" Selected="typeClick">Coffee</ComboBoxItem>
+                <ComboBoxItem Name="Latte" Selected="typeClick">Latte</ComboBoxItem>
+                <ComboBoxItem Name="Cappucino" Selected="typeClick">Cappucino</ComboBoxItem>
+                <ComboBoxItem Name="Americano" Selected="typeClick">Americano</ComboBoxItem>
+                <ComboBoxItem Name="Espresso" Selected="typeClick">Espresso</ComboBoxItem>
+                <ComboBoxItem Name="Macchiato" Selected="typeClick">Macchiato</ComboBoxItem>
             </ComboBox>
             <Label Content="Size: " Grid.Column="1" HorizontalAlignment="Left" Margin="50,26,0,0" VerticalAlignment="Top" Height="27" Width="42" FontFamily="Rockwell" FontWeight="Bold" FontSize="14"/>
-            <RadioButton GroupName="Size" Content="Small" Grid.Column="1" HorizontalAlignment="Left" Margin="111,32,0,0" VerticalAlignment="Top" Height="21" Width="65" FontFamily="Rockwell" FontSize="14"/>
-            <RadioButton GroupName="Size" Content="Medium" Grid.Column="1" HorizontalAlignment="Left" Margin="190,32,0,0" VerticalAlignment="Top" Height="21" Width="86" FontFamily="Rockwell" FontSize="14"/>
-            <RadioButton GroupName="Size" Content="Large" Grid.Column="1" HorizontalAlignment="Left" Margin="284,32,0,0" VerticalAlignment="Top" Height="21" Width="70" FontFamily="Rockwell" FontSize="14"/>
+            <RadioButton Name="smallSize" GroupName="Size" Content="Small" Grid.Column="1" HorizontalAlignment="Left" Margin="111,32,0,0" VerticalAlignment="Top" Height="21" Width="65" FontFamily="Rockwell" FontSize="14" Click="sizeClick"/>
+            <RadioButton Name="medSize" GroupName="Size" Content="Medium" Grid.Column="1" HorizontalAlignment="Left" Margin="190,32,0,0" VerticalAlignment="Top" Height="21" Width="86" FontFamily="Rockwell" FontSize="14" Click="sizeClick"/>
+            <RadioButton Name="largeSize" GroupName="Size" Content="Large" Grid.Column="1" HorizontalAlignment="Left" Margin="284,32,0,0" VerticalAlignment="Top" Height="21" Width="70" FontFamily="Rockwell" FontSize="14" Click="sizeClick"/>
             <Label Content="Extras: " Grid.Column="1" HorizontalAlignment="Left" Margin="51,75,0,0" VerticalAlignment="Top" Height="26" Width="60" FontFamily="Rockwell" FontWeight="Bold" FontSize="14"/>
-            <CheckBox Content="Sugar" Grid.Column="1" HorizontalAlignment="Center" Margin="0,81,0,0" VerticalAlignment="Top" Height="20" Width="80" FontFamily="Rockwell" FontSize="14"/>
-            <CheckBox Content="Cream" Grid.Column="1" HorizontalAlignment="Left" Margin="236,81,0,0" VerticalAlignment="Top" Height="20" Width="79" FontFamily="Rockwell" FontSize="14"/>
+            <CheckBox Name="sugar" Content="Sugar" Grid.Column="1" HorizontalAlignment="Center" Margin="0,81,0,0" VerticalAlignment="Top" Height="20" Width="80" FontFamily="Rockwell" FontSize="14" Checked="extrasCheckedOrUnchecked" Unchecked="extrasCheckedOrUnchecked"/>
+            <CheckBox Name="cream" Content="Cream" Grid.Column="1" HorizontalAlignment="Left" Margin="236,81,0,0" VerticalAlignment="Top" Height="20" Width="79" FontFamily="Rockwell" FontSize="14" Checked="extrasCheckedOrUnchecked" Unchecked="extrasCheckedOrUnchecked"/>
             <Label Content="Order Summary:" Grid.Column="1" HorizontalAlignment="Left" Margin="32,120,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="128" FontFamily="Rockwell" FontSize="14"/>
-            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="50,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="304" Text="Show Order Here" FontFamily="Rockwell" FontSize="14"/>
-            <Button BorderBrush="Black" BorderThickness="2" Content="Order Coffee" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="27" Width="137" FontFamily="Rockwell" FontWeight="Bold" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="14">
+            <TextBlock Name="summaryText" Grid.Column="1" HorizontalAlignment="Left" Margin="50,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="304" Text="Show Order Here" FontFamily="Rockwell" FontSize="14"/>
+            <Button BorderBrush="Black" BorderThickness="2" Content="Order Coffee" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="27" Width="137" FontFamily="Rockwell" FontWeight="Bold" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="14" Click="submitOrder">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="5"/>
