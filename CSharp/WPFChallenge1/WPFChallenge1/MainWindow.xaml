@@ -5,11 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFChallenge1"
         mc:Ignorable="d"
-        Title="Pick Your Coffee" Height="393" Width="800" Background="#FF414833">
+        Title="Pick Your Coffee" Height="381" Width="764" Background="#FF414833" DataContext="{Binding RelativeSource={RelativeSource Self}}">
     <Border BorderThickness="3" BorderBrush="Black" CornerRadius="8">
         <Grid Margin="26,24,25,39" Background="#FF7F5539">
-            
-
             <Grid.RowDefinitions>
                 <RowDefinition Height="353*"/>
                 <RowDefinition Height="81*"/>
@@ -36,7 +34,9 @@
             <CheckBox Name="sugar" Content="Sugar" Grid.Column="1" HorizontalAlignment="Center" Margin="0,81,0,0" VerticalAlignment="Top" Height="20" Width="80" FontFamily="Rockwell" FontSize="14" Checked="extrasCheckedOrUnchecked" Unchecked="extrasCheckedOrUnchecked"/>
             <CheckBox Name="cream" Content="Cream" Grid.Column="1" HorizontalAlignment="Left" Margin="236,81,0,0" VerticalAlignment="Top" Height="20" Width="79" FontFamily="Rockwell" FontSize="14" Checked="extrasCheckedOrUnchecked" Unchecked="extrasCheckedOrUnchecked"/>
             <Label Content="Order Summary:" Grid.Column="1" HorizontalAlignment="Left" Margin="32,120,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="128" FontFamily="Rockwell" FontSize="14"/>
-            <TextBlock Name="summaryText" Grid.Column="1" HorizontalAlignment="Left" Margin="50,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="304" Text="Show Order Here" FontFamily="Rockwell" FontSize="14"/>
+            
+            <TextBlock Name="summaryText" Grid.Column="1" HorizontalAlignment="Left" Margin="50,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="278" Text= "{Binding Description, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" FontFamily="Rockwell" FontSize="14"/>
+
             <Button BorderBrush="Black" BorderThickness="2" Content="Order Coffee" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="27" Width="137" FontFamily="Rockwell" FontWeight="Bold" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="14" Click="submitOrder">
                 <Button.Resources>
                     <Style TargetType="Border">
@@ -45,7 +45,9 @@
                 </Button.Resources>
             </Button>
             <Image HorizontalAlignment="Center" Height="134" Margin="0,74,0,0" VerticalAlignment="Top" Width="134" Source="/Starfox Coffee.png"/>
-            <TextBlock HorizontalAlignment="Left" Height="35" Margin="80,213,0,0" Text="Can't let you brew that, Starfox!" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontFamily="Script MT Bold" FontSize="16" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="19" Margin="52,213,0,0" Text="Can't let you brew that, Starfox!" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" FontFamily="Script MT Bold" FontSize="18" FontWeight="Bold"/>
+            <!--<TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="143,198,0,0" Text= "{Binding Description, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" Height="28"/>-->
+
 
         </Grid>
     </Border>

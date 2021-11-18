@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Diagnostics;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -24,10 +25,20 @@ namespace WPFChallenge1
         string size;
         string extras;
         string summary;
+
+
+
+        Coffee coffee1 { get; set; } = new Coffee();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            summaryText.DataContext = coffee1;
+            //summaryText.Text = "Place order here.";
+            //Need data context here?
         }
+        
         private void sizeClick(object sender, RoutedEventArgs e)
         {
             if (sender.Equals(smallSize))
@@ -94,8 +105,12 @@ namespace WPFChallenge1
         }
         private void summaryUpdater()
         {
+            
             this.summary = $"{this.size} {this.coffeeType} {this.extras}";
-            summaryText.Text = this.summary;
+            //summaryText.DataContext = coffee1;
+            //summaryText.Text = this.summary;
+            coffee1.Description = this.summary;
+            Debug.WriteLine(coffee1.Description);
         }
         private void submitOrder(object sender, RoutedEventArgs e)
         {
@@ -110,6 +125,14 @@ namespace WPFChallenge1
             cream.IsChecked = false;
             summaryUpdater();
             MessageBox.Show("Your order has been submitted");
+        }
+    }
+    public class Coffee
+    {
+        public string Description { get; set; }
+        public Coffee()
+        {
+            //this.Description;
         }
     }
 }

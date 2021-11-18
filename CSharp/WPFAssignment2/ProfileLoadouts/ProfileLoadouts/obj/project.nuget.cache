@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1SqpgOLBznOHIPbMaDE1TnXKf2zLhw+FhKQJJhgs8XmAtbNKH88uvwJF3xrAjPu/izzmZkXMBIVgLJBVnSpdzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\WPFAssignment2\\ProfileLoadouts\\ProfileLoadouts\\ProfileLoadouts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
