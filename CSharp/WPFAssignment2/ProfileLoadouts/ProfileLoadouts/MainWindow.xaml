@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProfileLoadouts"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="600" MinWidth="600" Background="DarkGray" BorderThickness="5" FontFamily="Palatino Linotype" FontSize="16">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
@@ -25,23 +25,43 @@
             <ColumnDefinition Width="41*"/>
             <ColumnDefinition Width="119*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="User 1" HorizontalAlignment="Left" Margin="95,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <Button Content="User 2" HorizontalAlignment="Left" Margin="95,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
-        <Button Content="User 3" HorizontalAlignment="Left" Margin="95,10,0,0" Grid.Row="3" VerticalAlignment="Top"/>
-        <Button Content="User 4" HorizontalAlignment="Left" Margin="95,10,0,0" Grid.Row="4" VerticalAlignment="Top"/>
-        <Slider Grid.Column="1" HorizontalAlignment="Left" Margin="195,8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
-        <RadioButton Content="Easy" Grid.Column="1" HorizontalAlignment="Left" Margin="163,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
-        <RadioButton Content="Medium" Grid.Column="1" HorizontalAlignment="Left" Margin="267,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
-        <RadioButton Content="Hard" Grid.Column="1" HorizontalAlignment="Left" Margin="376,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
-        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="216,9,0,0" Grid.Row="3" VerticalAlignment="Top" Width="168"/>
-        <ComboBoxItem>2560 x 1080</ComboBoxItem>
-        <ComboBoxItem>1920 x 1080</ComboBoxItem>
-        <CheckBox Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="195,0,0,0" Grid.Row="4" VerticalAlignment="Center"/>
-        <CheckBox Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="324,0,0,0" Grid.Row="4" VerticalAlignment="Center"/>
-        <Label Content="Brightness" Grid.Column="1" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
-        <Label Content="Difficulty" Grid.Column="1" HorizontalAlignment="Left" Margin="75,10,0,0" Grid.Row="2" VerticalAlignment="Top"/>
-        <Label Content="Resolution" Grid.Column="1" HorizontalAlignment="Left" Margin="75,4,0,0" Grid.Row="3" VerticalAlignment="Top"/>
-        <Label Content="Extra Options" Grid.Column="1" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="4" VerticalAlignment="Center"/>
+        <Label Content="User Options" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="0" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+        <RadioButton x:Name="User1Btn" Content="User 1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="25" Width = "100" Tag="1" Style="{StaticResource {x:Type ToggleButton}}"  IsChecked="True" Click="onUserButtonClick" BorderThickness="2"/>
+        <RadioButton x:Name="User2Btn" Content="User 2" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="25" Width = "100" Tag="2" Style="{StaticResource {x:Type ToggleButton}}" IsChecked="False" Click="onUserButtonClick" BorderThickness="2"/>
+        <RadioButton x:Name="User3Btn" Content="User 3" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="25" Width = "100" Tag="3" Style="{StaticResource {x:Type ToggleButton}}" IsChecked="False" Click="onUserButtonClick" BorderThickness="2"/>
+        <RadioButton x:Name="User4Btn" Content="User 4" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="25" Width = "100" Tag="4" Style="{StaticResource {x:Type ToggleButton}}" IsChecked="False" Click="onUserButtonClick" BorderThickness="2"/>
+
+        <Slider x:Name="BrightSlider" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="200" Minimum="0" Maximum="100" Value="{Binding Brightness, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Margin="250,0,0,0" Width="50" Text="{Binding ElementName=BrightSlider, Path=Value}" TextAlignment="Center" Height="20"></TextBlock>
+
+        <RadioButton GroupName="Difficulty" x:Name="EasyRadio" Content="Easy" Grid.Column="1" HorizontalAlignment="Center" Margin="-150,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Easy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <RadioButton GroupName="Difficulty" x:Name="NormalRadio" Content="Normal" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Normal, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <RadioButton GroupName="Difficulty" x:Name="HardRadio" Content="Hard" Grid.Column="1" HorizontalAlignment="Center" Margin="150,0,0,0" Grid.Row="2" VerticalAlignment="Center" Click="onHardClick" IsChecked="{Binding Hard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <ComboBox x:Name="ResCombo" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="168" SelectedIndex="{Binding Resolution, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <ComboBoxItem>640 x 480</ComboBoxItem>
+            <ComboBoxItem>1280 x 720</ComboBoxItem>
+            <ComboBoxItem>1920 x 1080</ComboBoxItem>
+            <ComboBoxItem>2560 x 1080</ComboBoxItem>
+            <ComboBoxItem>3840 x 2160</ComboBoxItem>
+        </ComboBox>
+        <CheckBox x:Name="PermadeathCheck" Content="PERMADEATH" Grid.Column="1" HorizontalAlignment="Center" Margin="-40,0,0,0" Grid.Row="4" VerticalAlignment="Center" Click="onHardClick" IsChecked="{Binding IsPermadeath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <CheckBox x:Name="HintCheck" Content="Hints Enabled" Grid.Column="1" HorizontalAlignment="Center" Margin="250,0,0,0" Grid.Row="4" VerticalAlignment="Center" IsChecked="{Binding AreHintsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Content="Brightness" Grid.Column="1" HorizontalAlignment="Center" Margin="-340,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
+        <Label Content="Difficulty" Grid.Column="1" HorizontalAlignment="Center" Margin="-347,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
+        <Label Content="Resolution" Grid.Column="1" HorizontalAlignment="Center" Margin="-340,0,0,0" Grid.Row="3" VerticalAlignment="Center"/>
+        <Label Content="Extra Options" Grid.Column="1" HorizontalAlignment="Center" Margin="-318,0,0,0" Grid.Row="4" VerticalAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="196" Margin="50,10,0,0" Grid.Row="5" VerticalAlignment="Top" Width="379" Source="/DarkSoulsBackground.jpg" Grid.Column="1" Grid.RowSpan="7"/>
+        <Image x:Name="Praise" HorizontalAlignment="Left" Height="163" Grid.Row="6" VerticalAlignment="Top" Width="151" Source="/PraiseTheSun.jpg" Grid.ColumnSpan="2" Margin="26,4,0,0" Grid.RowSpan="6" Visibility="Hidden"/>
+
+        <!--Debug button.-->
+         
+        <!--<Button x:Name="TestButton" Content="DebugButton" Grid.Column="0" HorizontalAlignment="Left" Margin="25,0,0,0" Grid.Row="8" VerticalAlignment="Center" Click="DebugWriter"/>-->
+        
+        <!--Thought about using buttons to save each profile.-->
+        <!-- 
+        <Button x:Name="CancelButton" Content="Cancel" Grid.Column="1" HorizontalAlignment="Left" Margin="250,0,0,0" Grid.Row="8" VerticalAlignment="Center" Click="DebugWriter" Width="80" Visibility="Hidden"/>
+        <Button x:Name="SaveButton" Content="Save Settings" Grid.Column="1" HorizontalAlignment="Left" Margin="350,0,0,0" Grid.Row="8" VerticalAlignment="Center" Click="DebugWriter" Width="80" Visibility="Hidden"/>
+        -->
 
     </Grid>
 </Window>

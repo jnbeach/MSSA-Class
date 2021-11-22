@@ -6,4 +6,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DarkSoulsBackground.jpg" />
+    <None Remove="PraiseGif.gif" />
+    <None Remove="PraiseTheSun.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DarkSoulsBackground.jpg" />
+    <Resource Include="PraiseGif.gif" />
+    <Resource Include="PraiseTheSun.jpg" />
+  </ItemGroup>
+
 </Project>

@@ -19,4 +19,4 @@ C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallen
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallenge1\WPFChallenge1\obj\Debug\net5.0-windows\ref\WPFChallenge1.dll
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallenge1\WPFChallenge1\obj\Debug\net5.0-windows\WPFChallenge1.pdb
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallenge1\WPFChallenge1\obj\Debug\net5.0-windows\WPFChallenge1.genruntimeconfig.cache
-C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallenge1\WPFChallenge1\obj\Debug\net5.0-windows\WPFChallenge1.csprojAssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFChallenge1\WPFChallenge1\obj\Debug\net5.0-windows\WPFChallenge1.csproj.AssemblyReference.cache

@@ -7,6 +7,7 @@ using System.Windows;
 using System.Diagnostics;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.ComponentModel; // Use this 
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -25,20 +26,22 @@ namespace WPFChallenge1
         string size;
         string extras;
         string summary;
+        Coffee coffee1;
 
-
-
-        Coffee coffee1 { get; set; } = new Coffee();
+        //Creates a Binding object
+        public Binding OrderSummaryBinding = new Binding("Description");
 
         public MainWindow()
         {
             InitializeComponent();
-
-            summaryText.DataContext = coffee1;
-            //summaryText.Text = "Place order here.";
-            //Need data context here?
+            coffee1 = new Coffee();
+            //Sets options for the Binding
+            OrderSummaryBinding.Mode = BindingMode.OneWay;
+            OrderSummaryBinding.Source = coffee1;
+            OrderSummaryBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //Sets the binding to the element, the property, and specifies which binding.
+            BindingOperations.SetBinding(OrderSummary, TextBlock.TextProperty,OrderSummaryBinding);
         }
-        
         private void sizeClick(object sender, RoutedEventArgs e)
         {
             if (sender.Equals(smallSize))
@@ -105,10 +108,7 @@ namespace WPFChallenge1
         }
         private void summaryUpdater()
         {
-            
             this.summary = $"{this.size} {this.coffeeType} {this.extras}";
-            //summaryText.DataContext = coffee1;
-            //summaryText.Text = this.summary;
             coffee1.Description = this.summary;
             Debug.WriteLine(coffee1.Description);
         }
@@ -127,12 +127,34 @@ namespace WPFChallenge1
             MessageBox.Show("Your order has been submitted");
         }
     }
-    public class Coffee
+    public class Coffee : INotifyPropertyChanged
     {
-        public string Description { get; set; }
+        private string description;
+        public string Description
+        {
+            get
+            {
+                return description;
+            }
+            set
+            {
+                this.description = value;
+                onPropertyChanged("Description");
+            }
+        }
+        public event PropertyChangedEventHandler PropertyChanged;
         public Coffee()
         {
-            //this.Description;
+            this.Description = "Your order will be updated here.";
+        }
+
+        //The property argument can actually be blank. It is informational for the EventArgs.
+        public void onPropertyChanged(string property)
+        {
+            if (PropertyChanged!= null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+            }
         }
     }
 }

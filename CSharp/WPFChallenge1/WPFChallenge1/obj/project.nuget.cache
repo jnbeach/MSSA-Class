@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p/zsTAO3kQuHkhs9lRov5pHAj/TiwFQ/1tfn3bvjORes/2rwQNULIDmJpi5cGdyIEyE0jqdazrgnX7UIAV54OQ==",
+  "dgSpecHash": "8Bou/sBbwi7X8j8Ym6tN+Dy885k2gJHpu9nD5gbWtKL4Ttcrh9yr0RoslJCChYJAZL9siMzYYsubxOn5dw64fA==",
   "success": true,
   "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\WPFChallenge1\\WPFChallenge1\\WPFChallenge1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
