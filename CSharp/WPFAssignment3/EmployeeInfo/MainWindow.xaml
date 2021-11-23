@@ -1,0 +1,65 @@
+﻿<Window x:Class="EmployeeInfo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeInfo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500" FontFamily="Bahnschrift SemiBold">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="180*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="PatientListBox" ItemsSource="{Binding PatientList}" Grid.Column="0" Grid.RowSpan="11" HorizontalAlignment="Center" Width="160" Margin="0,39,0,39">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <Image Source="/PatientIcon.png" DockPanel.Dock="Left" Height="64" Width="64">
+                        </Image>
+                        <StackPanel DockPanel.Dock="Right">
+                            <TextBlock Margin="15,0,0,0" Text="{Binding LastName}"></TextBlock>
+                            <TextBlock Margin="15,0,0,0" Text="{Binding FirstName}"></TextBlock>
+                            <TextBlock Margin="15,0,0,0" Text="{Binding Age}"></TextBlock>
+                        </StackPanel>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="First Name:" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Last Name:" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Age:" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Date of Birth:" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Blood Type:" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Weight:" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Height:" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Insurance:" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Allergies:" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <Label Content="Medications:" Grid.Row="10" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Width="80" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.FirstName}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.LastName}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="3" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Age}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="4" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.DateOfBirth}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="5" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.BloodType}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="6" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Weight}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="7" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Height}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="8" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Insurance}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="9" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Allergies}"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="10" Height="16" Width="233" Text="{Binding ElementName=PatientListBox, Path=SelectedItem.Medications}"/>
+
+    </Grid>
+</Window>

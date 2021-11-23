@@ -6,6 +6,17 @@
         xmlns:local="clr-namespace:ProfileLoadouts"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600" MinWidth="600" Background="DarkGray" BorderThickness="5" FontFamily="Palatino Linotype" FontSize="16">
+    <Window.Resources>
+        
+        <!--Messing around with styles triggers, but it isn't working.-->
+        <Style TargetType="RadioButton"  x:Key="UserButtonClickStyle">
+            <Setter Property="Background" Value="DarkRed"></Setter>
+            <Style.Triggers>
+                <!--<EventTrigger RoutedEvent="IsChecked"></EventTrigger>-->
+            </Style.Triggers>
+        </Style>
+        
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
