@@ -20,3 +20,4 @@ C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFAssignm
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFAssignment2\ProfileLoadouts\ProfileLoadouts\obj\Debug\net5.0-windows\ProfileLoadouts.pdb
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFAssignment2\ProfileLoadouts\ProfileLoadouts\obj\Debug\net5.0-windows\ProfileLoadouts.genruntimeconfig.cache
 C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFAssignment2\ProfileLoadouts\ProfileLoadouts\obj\Debug\net5.0-windows\ProfileLoadouts.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\CSharp\WPFAssignment2\ProfileLoadouts\ProfileLoadouts\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

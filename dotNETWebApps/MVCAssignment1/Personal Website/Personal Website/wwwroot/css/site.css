@@ -1,6 +1,7 @@
 html {
     font-size: 14px;
     background-color: #161A1D;
+    font-family: 'Prompt', sans-serif;
 }
 
 @media (min-width: 768px) {

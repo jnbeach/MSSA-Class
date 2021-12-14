@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SDiM0gr3EwmI5UYFGKwe/CJh2FVEYgTl9dRQvNUS7EaFl+r6vT4oADQ3JLj9Q9cyMiU/cNIU+EiHsAffws5m2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\dotNETWebApps\\MVCTest2\\Test2\\Test2\\Test2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

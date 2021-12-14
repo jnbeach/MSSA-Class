@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600" MinWidth="600" Background="DarkGray" BorderThickness="5" FontFamily="Palatino Linotype" FontSize="16">
     <Window.Resources>
-        
+        <!--RadioBoolToIntConverter located here.-->
+        <local:RadioBoolToIntConverter x:Key="RadioBoolToIntConverter"/>
         <!--Messing around with styles triggers, but it isn't working.-->
         <Style TargetType="RadioButton"  x:Key="UserButtonClickStyle">
             <Setter Property="Background" Value="DarkRed"></Setter>
@@ -45,9 +46,9 @@
         <Slider x:Name="BrightSlider" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="200" Minimum="0" Maximum="100" Value="{Binding Brightness, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
         <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Margin="250,0,0,0" Width="50" Text="{Binding ElementName=BrightSlider, Path=Value}" TextAlignment="Center" Height="20"></TextBlock>
 
-        <RadioButton GroupName="Difficulty" x:Name="EasyRadio" Content="Easy" Grid.Column="1" HorizontalAlignment="Center" Margin="-150,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Easy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <RadioButton GroupName="Difficulty" x:Name="NormalRadio" Content="Normal" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Normal, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <RadioButton GroupName="Difficulty" x:Name="HardRadio" Content="Hard" Grid.Column="1" HorizontalAlignment="Center" Margin="150,0,0,0" Grid.Row="2" VerticalAlignment="Center" Click="onHardClick" IsChecked="{Binding Hard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <RadioButton GroupName="Difficulty" x:Name="EasyRadio" Content="Easy" Grid.Column="1" HorizontalAlignment="Center" Margin="-150,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Difficulty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource RadioBoolToIntConverter}, ConverterParameter=1}"/>
+        <RadioButton GroupName="Difficulty" x:Name="NormalRadio" Content="Normal" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" IsChecked="{Binding Difficulty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource RadioBoolToIntConverter}, ConverterParameter=2}"/>
+        <RadioButton GroupName="Difficulty" x:Name="HardRadio" Content="Hard" Grid.Column="1" HorizontalAlignment="Center" Margin="150,0,0,0" Grid.Row="2" VerticalAlignment="Center" Click="onHardClick" IsChecked="{Binding Difficulty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource RadioBoolToIntConverter}, ConverterParameter=3}"/>
         <ComboBox x:Name="ResCombo" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="168" SelectedIndex="{Binding Resolution, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             <ComboBoxItem>640 x 480</ComboBoxItem>
             <ComboBoxItem>1280 x 720</ComboBoxItem>

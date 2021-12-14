@@ -164,37 +164,37 @@ namespace ProfileLoadouts
         {
             Debug.WriteLine($"----------------Profile 1-----------------------------");
             Debug.WriteLine($"{userProfile1.Brightness}");
-            //Debug.Write($"{userProfile1.SelectedDiff} ");
-            Debug.Write($"[{userProfile1.Easy} ");
-            Debug.Write($"{userProfile1.Normal} ");
-            Debug.Write($"{userProfile1.Hard}] \n");
+            Debug.Write($"{userProfile1.Difficulty} ");
+            //Debug.Write($"[{userProfile1.Easy} ");
+            //Debug.Write($"{userProfile1.Normal} ");
+            //Debug.Write($"{userProfile1.Hard}] \n");
             Debug.WriteLine($"{userProfile1.Resolution}");
             Debug.WriteLine($"{userProfile1.IsPermadeath}");
             Debug.WriteLine($"{userProfile1.AreHintsEnabled}");
             Debug.WriteLine($"----------------Profile 2-----------------------------");
             Debug.WriteLine($"{userProfile2.Brightness}");
-            //Debug.Write($"{userProfile2.SelectedDiff} ");
-            Debug.Write($"[{userProfile2.Easy} ");
-            Debug.Write($"{userProfile2.Normal} ");
-            Debug.Write($"{userProfile2.Hard}] \n");
+            Debug.Write($"{userProfile2.Difficulty} ");
+            //Debug.Write($"[{userProfile2.Easy} ");
+            //Debug.Write($"{userProfile2.Normal} ");
+            //Debug.Write($"{userProfile2.Hard}] \n");
             Debug.WriteLine($"{userProfile2.Resolution}");
             Debug.WriteLine($"{userProfile2.IsPermadeath}");
             Debug.WriteLine($"{userProfile2.AreHintsEnabled}");
             Debug.WriteLine($"----------------Profile 3-----------------------------");
             Debug.WriteLine($"{userProfile3.Brightness}");
-            //Debug.Write($"{userProfile3.SelectedDiff} ");
-            Debug.Write($"[{userProfile3.Easy} ");
-            Debug.Write($"{userProfile3.Normal} ");
-            Debug.Write($"{userProfile3.Hard}] \n");
+            Debug.Write($"{userProfile3.Difficulty} ");
+            //Debug.Write($"[{userProfile3.Easy} ");
+            //Debug.Write($"{userProfile3.Normal} ");
+            //Debug.Write($"{userProfile3.Hard}] \n");
             Debug.WriteLine($"{userProfile3.Resolution}");
             Debug.WriteLine($"{userProfile3.IsPermadeath}");
             Debug.WriteLine($"{userProfile3.AreHintsEnabled}");
             Debug.WriteLine($"----------------Profile 4-----------------------------");
             Debug.WriteLine($"{userProfile4.Brightness}");
-            //Debug.Write($"{userProfile4.SelectedDiff} ");
-            Debug.Write($"[{userProfile4.Easy} ");
-            Debug.Write($"{userProfile4.Normal} ");
-            Debug.Write($"{userProfile4.Hard}] \n");
+            Debug.Write($"{userProfile4.Difficulty} ");
+            //Debug.Write($"[{userProfile4.Easy} ");
+            //Debug.Write($"{userProfile4.Normal} ");
+            //Debug.Write($"{userProfile4.Hard}] \n");
             Debug.WriteLine($"{userProfile4.Resolution}");
             Debug.WriteLine($"{userProfile4.IsPermadeath}");
             Debug.WriteLine($"{userProfile4.AreHintsEnabled}");
@@ -213,34 +213,13 @@ namespace ProfileLoadouts
             set {this.brightness = value; onPropertyChanged("Brightness");} 
         }
 
-        public bool easy;
-        public bool normal;
-        public bool hard;
-        public bool Easy
-        {
-            get { return easy; }
-            set { this.easy = value; onPropertyChanged("Easy"); }
-        }
-        public bool Normal
-        {
-            get { return normal; }
-            set { this.normal = value; onPropertyChanged("Normal"); }
-        }
-        public bool Hard
-        {
-            get { return hard; }
-            set { this.hard = value; onPropertyChanged("Hard"); }
-        }
-
-        public bool[] difficulty;
-        public bool[] Difficulty
+        public int difficulty;
+        public int Difficulty
         {
             get { return difficulty; }
             set { this.difficulty = value; onPropertyChanged("Difficulty"); }
         }
-        public int SelectedDiff {
-            get { return Array.IndexOf(difficulty, true); }
-        }
+
         private int resolution;
         public int Resolution {
             get { return resolution; }
@@ -262,8 +241,7 @@ namespace ProfileLoadouts
         public Profile()
         {
             this.brightness = 0;
-            this.normal = true;
-            this.difficulty = new bool[3] {false, true, false };
+            this.difficulty = 2;
             this.resolution = 2;
             this.isPermadeath = false;
             this.areHintsEnabled = false;
