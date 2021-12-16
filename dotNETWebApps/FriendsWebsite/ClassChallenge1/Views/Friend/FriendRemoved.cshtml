@@ -1,0 +1,15 @@
+﻿@model Friend
+@{
+    ViewData["Title"] = "Friend Removed";
+}
+
+<h1>Friend "@Model.FriendName" Successfully Removed</h1>
+<button>
+    <a class="nav-link text-dark" asp-controller="Friend" asp-action="Index">Back to Friend List</a>
+</button>
+
+@section Instructions
+{
+<div class="instructions">Your friend was removed.</div>
+}
+

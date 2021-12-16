@@ -1,0 +1,30 @@
+﻿@using ClassChallenge1.Services;
+@model FriendList
+@{
+    ViewData["Title"] = "Friend";
+}
+
+<h1>Friends</h1>
+
+<div class = "friendlist container" id="FriendlistDiv">
+@foreach(var item in Model.listOfFriends)
+{
+    <div class="friend container" >
+        <p>@item.FriendName</p>
+         @*Asp route id adds the Friend id to the URL*@
+        <button>
+            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendDetails">View Details</a>
+        </button>
+        <button>
+            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="UpdateFriend">Update Friend</a>
+        </button>
+        <button>
+            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendRemoved">Remove Friend</a>
+        </button>
+    </div>    
+}
+</div>
+@section Instructions
+{
+<div class="instructions">All of your friends are displayed here! Click "View Details" to see more.</div>
+}

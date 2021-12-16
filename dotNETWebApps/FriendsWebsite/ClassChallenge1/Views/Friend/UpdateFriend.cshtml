@@ -1,0 +1,33 @@
+﻿@model Friend
+@{
+    ViewData["Title"] = "Update Friend";
+}
+<h3>Update friend info here:</h3>
+<form method="post" asp-action = "UpdateFriend">
+    <div asp-validation-summary = "All">        
+        <div class = "form-field">            
+            <input type="hidden" asp-for = "FriendID"/>            
+        </div>
+        <div class = "form-field">
+            <label asp-for="FriendName"></label>
+            <input asp-for = "FriendName"/>
+            <span asp-validation-for = "FriendName"/>
+        </div>
+        <div class = "form-field">
+            <label asp-for="Place"></label>
+            <input asp-for = "Place"/>
+            <span asp-validation-for = "Place"/>
+        </div>
+        <div class = "form-field">
+            <input type="submit">Submit</input>
+        </div>        
+    </div>    
+</form>
+<button>
+    <a class="nav-link text-dark" asp-controller="Friend" asp-action="Index">Back to Friend List</a>
+</button>
+
+@section Instructions
+{
+<div class="instructions">Here you can update your friend's details. Enter the fields you would like updated and hit the update button.</div>
+}
