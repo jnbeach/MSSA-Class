@@ -10,17 +10,32 @@
 @foreach(var item in Model.listOfFriends)
 {
     <div class="friend container" >
-        <p>@item.FriendName</p>
-         @*Asp route id adds the Friend id to the URL*@
-        <button>
-            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendDetails">View Details</a>
-        </button>
-        <button>
-            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="UpdateFriend">Update Friend</a>
-        </button>
-        <button>
-            <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendRemoved">Remove Friend</a>
-        </button>
+        <div class="row">
+            <div class="col-2">
+                <p>@item.FriendName</p>
+                @*Asp route id adds the Friend id to the URL*@
+            </div>
+            <div class="col-4">
+                <img src="img/IsisDerpCat.jpg" alt="Friend Photo">
+            </div>
+         </div>
+        <div class="row">
+            <div class="col-2">
+                 <button>
+                    <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendDetails">Details</a>
+                </button>
+            </div>
+            <div class="col-2">
+                <button>
+                    <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="UpdateFriend">Update</a>
+                </button>
+            </div>
+            <div class="col-2">
+                <button>
+                    <a class="text-dark" asp-controller="Friend" asp-route-id="@item.FriendID" asp-action="FriendRemoved">Remove</a>
+                </button>
+            </div>
+        </div>
     </div>    
 }
 </div>

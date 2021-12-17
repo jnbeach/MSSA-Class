@@ -18,6 +18,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+button {
+    padding: 1px 10px;
+    font-size: 1.15rem;
+    border-radius: 20px;
+}
+
 a.navbar-brand {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
@@ -43,4 +49,23 @@ a.nav-link {
 }
 #BodyDiv {
     padding-left: 30px;
+}
+
+
+#FriendlistDiv button a{
+    text-decoration:none;
+}
+#FriendlistDiv .friend {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+#FriendlistDiv p{
+    font-size: 1.5rem;
+}
+
+.friend img {
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    height: 200px;
 }

@@ -15,10 +15,10 @@ namespace ClassChallenge1.Services
         {
             listOfFriends = new List<Friend>()
             {
-                new Friend(){FriendID = 1, FriendName = "Jake",Place = "North Carolina", FavoriteFood="Spaghetti", FavoriteMovie="LOTR", RelationshipStatus="Married"},
-                new Friend(){FriendID = 2, FriendName = "Matt",Place = "Georgia", FavoriteFood="Spaghetti", FavoriteMovie="LOTR", RelationshipStatus="Married" },
-                new Friend(){FriendID = 3, FriendName = "Joe",Place = "Wisconsin", FavoriteFood="Spaghetti", FavoriteMovie="LOTR", RelationshipStatus="Married" },
-                new Friend(){FriendID = 4, FriendName = "Leon",Place = "Mexico", FavoriteFood="Spaghetti", FavoriteMovie="LOTR", RelationshipStatus="Married" },
+                new Friend(){FriendID = 1, FriendName = "Steve",Place = "Ohio, USA", FavoriteFood="Cheeseburgers", FavoriteMovie="Inception", RelationshipStatus="Married"},
+                new Friend(){FriendID = 2, FriendName = "Greg",Place = "Minnesota, USA", FavoriteFood="Spaghetti", FavoriteMovie="Pacific Rim", RelationshipStatus="Married" },
+                new Friend(){FriendID = 3, FriendName = "Chad",Place = "Washington, USA", FavoriteFood="Lasagna", FavoriteMovie="Lord of the Rings", RelationshipStatus="Married" },
+                new Friend(){FriendID = 4, FriendName = "Leon",Place = "Mexico", FavoriteFood="Pizza", FavoriteMovie="The Shining", RelationshipStatus="Married" },
             };
         }
 
