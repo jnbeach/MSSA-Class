@@ -1,0 +1,15 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\Challenge2.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\Challenge2.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\Challenge2.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\Challenge2.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\ref\Challenge2.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\bin\Debug\net6.0\Challenge2.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\ref\Challenge2.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\Challenge2\obj\Debug\net6.0\Challenge2.genruntimeconfig.cache

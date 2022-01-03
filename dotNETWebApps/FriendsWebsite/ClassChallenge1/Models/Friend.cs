@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClassChallenge1.Models
 {
@@ -6,28 +7,26 @@ namespace ClassChallenge1.Models
     {
         [Display(Name = "Id:")]
         [Required(ErrorMessage = "This is required")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int FriendID { get; set; }
 
         [Display(Name = "Name:")]
         [Required(ErrorMessage = "This is required")]
-        public string? FriendName { get; set; }
+        public string FriendName { get; set; }
 
         [Display(Name = "Place:")]
         [Required(ErrorMessage = "This is required")]
         [StringLength(25, ErrorMessage = "Must be less than 25 characters.")]
-        public string? Place { get; set; }
+        public string Place { get; set; }
 
         [Display(Name = "Favorite Food:")]
-        [Required(ErrorMessage = "This is required")]
-        public string? FavoriteFood { get; set; }
+        public string FavoriteFood { get; set; }
 
         [Display(Name = "Favorite Movie:")]
-        [Required(ErrorMessage = "This is required")]
-        public string? FavoriteMovie { get; set; }
+        public string FavoriteMovie { get; set; }
 
         [Display(Name = "Relationship Status:")]
-        [Required(ErrorMessage = "This is required")]
-        public string? RelationshipStatus { get; set; }
+        public string RelationshipStatus { get; set; }
 
         // Having a constructor was causing errors when trying to use Dependency injection or setting up the add new friend page (Can't rememeber which one)
         //

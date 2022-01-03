@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9GeRwCwnvBZBkiBpEgHIyT8BeuRlw+fvNH8LyIhPjhdEyT3Jfd3bQWUlhIdiq5IjbWumCAc0EagDdwb1Q4iSsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\SpecialProjectWeek\\IntroToCSharpProgramming\\Challenge3\\Challenge3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

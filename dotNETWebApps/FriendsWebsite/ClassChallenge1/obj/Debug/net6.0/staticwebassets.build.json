@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zH0ItppOknyVNSRYr5dxIBrdf9Bb6GT2lWdyz5mg9gs=",
+  "Hash": "lpWoPcfAO7B9smCv+zfsRT1MZOkG8vlosONmZFbe6v8=",
   "Source": "ClassChallenge1",
   "BasePath": "_content/ClassChallenge1",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\dotNETWebApps\\FriendsWebsite\\ClassChallenge1\\wwwroot\\img\\IsisDerpCat.jpg",
+      "SourceId": "ClassChallenge1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\dotNETWebApps\\FriendsWebsite\\ClassChallenge1\\wwwroot\\",
+      "BasePath": "_content/ClassChallenge1",
+      "RelativePath": "img/IsisDerpCat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\IsisDerpCat.jpg"
     },
     {
       "Identity": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\dotNETWebApps\\FriendsWebsite\\ClassChallenge1\\wwwroot\\js\\site.js",

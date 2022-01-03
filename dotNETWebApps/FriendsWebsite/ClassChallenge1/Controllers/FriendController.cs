@@ -7,7 +7,7 @@ namespace ClassChallenge1.Controllers
 {
     public class FriendController : Controller
     {
-        IFriendList _listOfFriends; //Must be an interface
+        IFriendList _listOfFriends; //Must be an interface. This is our database service.
 
         //Inject service into Controller
         public FriendController(IFriendList inputFriends) //Input the Interface to call the service.
@@ -46,7 +46,7 @@ namespace ClassChallenge1.Controllers
         {
             if (ModelState.IsValid) //If all of the validations are good, then add the friend and take it back to index.
             {
-                _listOfFriends.listOfFriends.Add(friend);
+                _listOfFriends.AddFriend(friend);
                 return RedirectToAction("Index");
             }
             
@@ -63,10 +63,9 @@ namespace ClassChallenge1.Controllers
 
         [HttpPost]
         public IActionResult UpdateFriend(Friend updatedFriend)
-        {
-            //Friend currentFriend = _listOfFriends.GetFriendById(updatedFriend.FriendID);
-            _listOfFriends.listOfFriends[updatedFriend.FriendID - 1] = updatedFriend;
-            return View();
+        {         
+            _listOfFriends.UpdateFriend(updatedFriend);
+            return View(updatedFriend);
         }
     }
 }
