@@ -1,0 +1,15 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\FlightInfoApp.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\FlightInfoApp.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\FlightInfoApp.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\FlightInfoApp.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\ref\FlightInfoApp.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\bin\Debug\net6.0\FlightInfoApp.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\ref\FlightInfoApp.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\IntroToCSharpProgramming\FlightInfoApp\obj\Debug\net6.0\FlightInfoApp.genruntimeconfig.cache
