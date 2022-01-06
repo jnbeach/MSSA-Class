@@ -1,0 +1,15 @@
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\CSharpProgramming.exe
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\CSharpProgramming.deps.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\CSharpProgramming.runtimeconfig.json
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\CSharpProgramming.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\ref\CSharpProgramming.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\bin\Debug\net6.0\CSharpProgramming.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.csproj.AssemblyReference.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.AssemblyInfoInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.AssemblyInfo.cs
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.csproj.CoreCompileInputs.cache
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\ref\CSharpProgramming.dll
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.pdb
+C:\Users\straw\OneDrive\Documents\Coding\MSSA Class\MSSA-Class\SpecialProjectWeek\CSharpProgramming\obj\Debug\net6.0\CSharpProgramming.genruntimeconfig.cache

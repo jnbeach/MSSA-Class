@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFCRUD.ListOfStudents"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCRUD"
+        mc:Ignorable="d"
+        Title="ListOfStudents" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Top">
+                <Button Click="CloseListOfStudents">Close</Button>
+                <Button Click="OpenForm">Add New Student</Button>
+            </StackPanel>
+            <Grid>
+                <DataGrid x:Name="DataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Age" Binding="{Binding Age}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Height" Binding="{Binding Height}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Pass or Fail" Binding="{Binding Failed}"></DataGridTextColumn>
+
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button CommandParameter="{Binding Id}" Click="EditStudent">Edit Entry</Button>
+                                        <Button CommandParameter="{Binding Id}" Click="DeleteStudent">Delete Entry</Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+                    </DataGrid.Columns>
+                    
+                </DataGrid>
+            </Grid>
+            
+        </DockPanel>
+
+    </Grid>
+</Window>
