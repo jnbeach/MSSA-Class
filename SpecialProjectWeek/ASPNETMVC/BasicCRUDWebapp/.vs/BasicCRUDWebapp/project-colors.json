@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec1c1781-a333-4349-a941-0ee52a9b96c1": {
+      "ProjectGuid": "ec1c1781-a333-4349-a941-0ee52a9b96c1",
+      "DisplayName": "BasicCRUDWebapp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5CLV3ksQilXsI5ZOshjQXRAeEP/Ta3yMfitPuevKBLyxw/hgBmLH2e3vWZSd7gUIgc4aLZ9vPZ08GwtUyEsL3g==",
+  "dgSpecHash": "E9mKH+jXKl8w1BWusGsazyGNjaZTwhtMPiColKAls+ZSsVmLdpc1XBRsNmmx9u6Trziw0+UR544iV8iNGE5kEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\CSharp\\WPFAssignment3\\AppointmentInfo\\AppointmentInfo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

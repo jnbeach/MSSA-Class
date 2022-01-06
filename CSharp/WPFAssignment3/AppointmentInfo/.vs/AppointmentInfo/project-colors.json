@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0c6a8f2-2e74-41cb-8f38-1f5b331c1a16": {
+      "ProjectGuid": "c0c6a8f2-2e74-41cb-8f38-1f5b331c1a16",
+      "DisplayName": "AppointmentInfo",
+      "ColorIndex": 0
+    },
+    "2c62cc50-7afc-4428-99b0-2c330639a2fa": {
+      "ProjectGuid": "2c62cc50-7afc-4428-99b0-2c330639a2fa",
+      "DisplayName": "EmployeeInfo",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

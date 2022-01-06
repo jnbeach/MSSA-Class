@@ -247,6 +247,5 @@ foreach (var item in QuerySyntax)
 {
     Console.WriteLine(item);
 }
-Console.ReadKey();
 
 #endregion
