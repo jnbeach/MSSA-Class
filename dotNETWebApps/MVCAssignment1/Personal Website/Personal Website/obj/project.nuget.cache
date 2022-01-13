@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5vpZLZr/KpEambC9hhpvd4zkYSflewZfhaHHaaoO8BnXsAPGCS8GhDVRoztg9SCR5FYukYYq7s4M52zORZ632g==",
+  "dgSpecHash": "+VFAX+l/tUH9KOqWINeX3fZ1yhGSlVw1hbEgsm+l5/08sDUR4m0m5Zl+7d7R5GChy2Ty6tgto7hfCnx4dsW8lA==",
   "success": true,
   "projectFilePath": "C:\\Users\\straw\\OneDrive\\Documents\\Coding\\MSSA Class\\MSSA-Class\\dotNETWebApps\\MVCAssignment1\\Personal Website\\Personal Website\\Personal Website.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\straw\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.0\\microsoft.visualstudio.web.codegeneration.6.0.0.nupkg.sha512",
     "C:\\Users\\straw\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.0\\microsoft.visualstudio.web.codegeneration.core.6.0.0.nupkg.sha512",

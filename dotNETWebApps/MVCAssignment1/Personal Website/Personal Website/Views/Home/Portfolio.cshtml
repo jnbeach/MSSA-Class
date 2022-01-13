@@ -1,11 +1,41 @@
 ﻿@{
     ViewData["Title"] = "Portfolio";
 }
-<h1>@ViewData["Title"]</h1>
+<h1>Portfolio();</h1>
 
-<p>Here are some of my Personal Projects!</p>
+<h3>Here are some of my Personal Projects:</h3>
 
-<h2>Awesome Project 1</h2>
-<h2>Awesome Project 2</h2>
-<h2>Awesome Project 3</h2>
-<h2>Awesome Project 4</h2>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Awesome Project 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Awesome Project 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Awesome Project 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="~/img/Connect4.png" class="d-block w-100" alt="Connect4 Image">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Connect 4</h5>
+            <p>A text-based console application of Connect 4. (Based on a CodeWars algorithm exercise)</p>
+          </div>
+    </div>
+    <div class="carousel-item">
+        <img src="~/img/Pokedex.png" class="d-block w-100" alt="Pokedex">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pokédex</h5>
+            <p>A basic web app that communicates with PokéAPI to retrieve sprite images and an example move set.</p>
+          </div>
+    </div>
+    <div class="carousel-item">
+        <img src="~/img/Connect4.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
